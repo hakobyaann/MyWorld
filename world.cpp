@@ -77,3 +77,12 @@ bool tree(int t)
     }
     return false;
 }
+
+int Grass::mrass(bool sun)
+{
+    if (sun == false)
+    {
+        amount += 2;
+    }
+    return amount;
+}
