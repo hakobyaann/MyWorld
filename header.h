@@ -21,15 +21,7 @@ class Frog
 {   
 public: 
     std::vector<int>stomach;
-    int eats(Grass food, bool light)
-    {
-        while (stomach.size() <= 5)
-        {    
-            stomach.push_back(food.mrass(light));
-            food.amount -= 5;
-        }
-        return food.amount;
-    }
+    int eats(Grass, const bool);
 };
 
 void movement()
