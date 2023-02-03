@@ -14,14 +14,7 @@ class Grass
 {
 public: 
     long long amount = 100;
-    int mrass(bool sun)
-    {
-        if (sun == false)
-        {
-            amount += 2;
-        }
-        return amount;
-    }
+    int mrass(bool);
 };
 
 class Frog
