@@ -1,11 +1,12 @@
 #include "header.h"
 
+Grass food;
+Frog frggy;
+
 int main()
-{
-    
+{   
     time();
-    return 0;
-    
+    return 0;   
 }
 
 void time()
@@ -13,7 +14,6 @@ void time()
     int i = 1;
     while (1)
     {
-        
         std::cout << "Time " << i << " o'clock" <<std::endl;
         sleep(1);
         ++i;
