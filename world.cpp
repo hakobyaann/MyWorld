@@ -86,3 +86,13 @@ int Grass::mrass(bool sun)
     }
     return amount;
 }
+
+int Frog::eats(Grass food, const bool light)
+{
+    while (stomach.size() <= 5)
+    {    
+        stomach.push_back(food.mrass(light));
+        food.amount -= 5;
+    }
+    return food.amount;
+}
