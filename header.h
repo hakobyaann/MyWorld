@@ -22,7 +22,7 @@ public:
         }
         return amount;
     }
-}food;
+};
 
 class Frog
 {   
@@ -37,7 +37,7 @@ public:
         }
         return food.amount;
     }
-}froggy;
+};
 
 void movement()
 {
